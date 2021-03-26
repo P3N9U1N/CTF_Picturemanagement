@@ -1,0 +1,6 @@
+bin/
+.vscode/
+obj/
+*.js.map
+wwwroot/pics/*
+!wwwroot/pics/flag.jpeg

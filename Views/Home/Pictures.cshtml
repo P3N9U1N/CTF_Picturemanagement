@@ -1,0 +1,26 @@
+@model List<Picture>
+
+@section Scripts{
+   <script src="~/js/pictures.js"></script>
+}
+@{
+    ViewData["Title"] = "Pictures";
+}
+<h2>@ViewData["Title"]</h2>
+
+
+<div class="pictureListContainer">
+    <div class="pictureListColumn1">
+         <ul class="pictureList">  
+            @foreach (var item in Model)
+            {                    
+            <li>
+            <button data-imagePath="@(item.Path)">@(item.Description)</button>
+            </li>
+            }
+        </ul>
+    </div>
+    <div class="pictureListColumn2">
+        <img src="" alt="" >
+    </div>
+</div>

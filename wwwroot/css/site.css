@@ -1,0 +1,114 @@
+﻿.pictureList
+{
+ flex:content;
+ list-style: none;
+ margin:0px;
+ padding: 0px;
+}
+
+.pictureList>li
+{
+ margin:2px;
+}
+
+.pictureListColumn1
+{
+ flex-basis:content; 
+ min-width: 20rem;
+ background-color: aliceblue;
+ margin:2px 0px 2px 2px;
+ overflow:auto;
+}
+.pictureListColumn2
+{
+ flex:1;
+ background-color: aliceblue;
+ margin:2px;
+ overflow:auto;
+} 
+.pictureListContainer
+{
+ display: flex;
+ flex: 1;
+ background-color: lightslategray;
+ min-height: 0px; /*allow container shrink*/
+} 
+.pictureListColumn2>img
+{
+  max-width: 100%;
+  height: auto;
+  margin: 0 ;
+  display: block;
+}
+.pictureList button
+{
+  width: 100%; 
+}
+
+main
+{
+ flex:1;
+ padding: 0px 12px;
+ min-height: 0px;
+}
+
+main,body
+{
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+ box-sizing: border-box;
+}
+html
+{
+  margin: 0;
+  height: 100%;
+  box-sizing:border-box;
+  background-color:lightblue;
+  overflow:hidden;
+  font-family: sans-serif;
+}
+footer
+{
+  height:30px;
+  text-align: center;
+  flex-shrink:0;
+}
+header>nav{
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: aliceblue
+}
+header>nav>a{
+  text-decoration: none;
+  display: table-cell;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  line-height: 50px;
+  border-right-color: lightslategray;
+  border-bottom-color: lightslategray;
+  font-size: larger;
+}
+header>nav>a:last-of-type{
+  border-right: 0px;
+}
+header>nav>a:hover{
+  text-decoration: underline;
+  background-color: lightslategray;
+  color: aliceblue;
+}
+
+.homeDescription
+{
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

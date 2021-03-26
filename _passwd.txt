@@ -1,0 +1,33 @@
+avahi:x:498:498:User for Avahi:/run/avahi-daemon:/bin/false
+bin:x:1:1:bin:/bin:/sbin/nologin
+chrony:x:492:478:Chrony Daemon:/var/lib/chrony:/bin/false
+daemon:x:2:2:Daemon:/sbin:/sbin/nologin
+dnsmasq:x:491:65533:dnsmasq:/var/lib/empty:/bin/false
+dockremap:x:457:456:docker --userns-remap=default:/home/dockremap:/bin/false
+firebird:x:493:479:Firebird SQL server:/srv/firebird:/bin/bash
+lightdm:x:465:465:LightDM daemon:/var/lib/lightdm:/bin/false
+lp:x:490:485:Printing daemon:/var/spool/lpd:/sbin/nologin
+mail:x:496:496:Mailer daemon:/var/spool/clientmqueue:/sbin/nologin
+man:x:13:62:Manual pages viewer:/var/lib/empty:/sbin/nologin
+messagebus:x:494:480:User for D-Bus:/run/dbus:/sbin/nologin
+nobody:x:65534:65534:nobody:/var/lib/nobody:/bin/bash
+nscd:x:467:466:User for nscd:/run/nscd:/sbin/nologin
+nslcd:x:463:461:nslcd ldap user:/:/sbin/nologin
+polkitd:x:471:471:User for polkitd:/var/lib/polkit:/sbin/nologin
+postfix:x:51:51:Postfix Daemon:/var/spool/postfix:/sbin/nologin
+pulse:x:468:468:PulseAudio daemon:/var/lib/pulseaudio:/sbin/nologin
+root:x:0:0:root:/root:/bin/bash
+rpc:x:495:481:User for rpcbind:/var/lib/empty:/sbin/nologin
+rtkit:x:470:470:RealtimeKit:/proc:/bin/false
+scard:x:469:469:Smart Card Reader:/run/pcscd:/usr/sbin/nologin
+sshd:x:499:499:SSH daemon:/var/lib/sshd:/bin/false
+statd:x:489:477:NFS statd daemon:/var/lib/nfs:/sbin/nologin
+systemd-coredump:x:472:472:systemd Core Dumper:/:/usr/sbin/nologin
+systemd-network:x:475:475:systemd Network Management:/:/usr/sbin/nologin
+systemd-resolve:x:474:474:systemd Resolver:/:/usr/sbin/nologin
+systemd-timesync:x:473:473:systemd Time Synchronization:/:/usr/sbin/nologin
+tftp:x:497:497:TFTP Account:/srv/tftpboot:/sbin/nologin
+usbmux:x:466:65533:usbmuxd daemon:/var/lib/usbmuxd:/sbin/nologin
+vnc:x:464:464:user for VNC:/var/lib/empty:/sbin/nologin
+wsdd:x:458:458:User for wsdd:/run/wsdd:/usr/sbin/nologin
+user:x:1001:100:user:/home/user:/bin/bash
