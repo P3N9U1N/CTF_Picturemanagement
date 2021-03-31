@@ -31,7 +31,7 @@ automatically.
 
 Useful Docker commands:  
 dotnet publish -c Release  
-docker build -t picture-management -f Dockerfile.  
+docker build -t picture-management -f Dockerfile .  
 docker run --rm -d -p 8080:5000 --name myapp picture-management  
 docker save -o picture-management.tar picture-management  
 docker load -i picture-management.tar  
