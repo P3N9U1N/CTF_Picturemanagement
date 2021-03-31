@@ -30,10 +30,10 @@ Just copy them to the wwwroot/pics directory, they are recognized
 automatically. 
 
 Useful Docker commands:  
-dotnet publish -c Release
-docker build -t picture-management -f Dockerfile .
-docker run --rm -d -p 8080:80 --name myapp picture-management
-docker save -o picture-management.tar picture-management
-docker load -i picture-management.tar
+dotnet publish -c Release  
+docker build -t picture-management -f Dockerfile.  
+docker run --rm -d -p 8080:5000 --name myapp picture-management  
+docker save -o picture-management.tar picture-management  
+docker load -i picture-management.tar  
 
 
