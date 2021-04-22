@@ -1,6 +1,9 @@
 Picture Management System:  
 Web app that showcases the directory traversal attack, meant to be used for CTF
-challenges. 
+challenges.
+
+![alt tag](https://repository-images.githubusercontent.com/351836336/20f54700-a362-11eb-967e-7d5f7cce93d0)
+
 First stage:
 Successfully download the file /usr/share/flag.txt that contains the flag.
 The flag can be customized in the _flag.txt file.
@@ -22,7 +25,7 @@ Now you can create a docker image with
 "docker build -t picture-management -f Dockerfile ."
 and run with (default internal port is set to 5000):
 "docker run --rm -d -p 8080:5000 --name myapp picture-management"
-
+The app is then available at http://localhost:8080.
 
 Pictures:  
 Feel free to use your own pictures.
